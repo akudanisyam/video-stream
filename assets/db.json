@@ -62,12 +62,8 @@
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw_RShfSvhmdEBeEpkDm60ZHeVEszUQCH3gQ&s",
             "video_url": "https://f2o8.uyeshare.cc/uptobox/kc4wobukhbwowmrhiqj11afdngxi5v9s0dqgzm",
             "sub_url": "./assets/vtt/final-destination-5-indonesia.vtt",
-<<<<<<< HEAD
             "format": "video/mp4",
             "isSeries": false
-=======
-            "format": "video/mp4"
->>>>>>> 5f8599281c60c2c6f7b7edba01c303165e36a2d3
         },
         {
             "id": 6,
@@ -79,7 +75,6 @@
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSicF5iLwleFXEjQFwDMUXW6bmr6Rzw5hetjQ&s",
             "video_url": "https://f2o8.uyeshare.cc/uptobox/y7iml05tsl96ggpz1mptkbbmoyb1frs1fp3t7",
             "sub_url": "./assets/vtt/furiosa-a-mad-max-saga-indonesia.vtt",
-<<<<<<< HEAD
             "format": "video/mp4",
             "isSeries": false
         },
@@ -134,9 +129,6 @@
             "sub_url": "./assets/vtt/the-strangers-chapter-1-indonesia.vtt",
             "format": "video/mp4",
             "isSeries": false
-=======
-            "format": "video/mp4"
->>>>>>> 5f8599281c60c2c6f7b7edba01c303165e36a2d3
         }
     ]
 }
