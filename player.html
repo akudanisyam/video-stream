@@ -10,54 +10,43 @@
     <header>
         <nav>
             <h1>Video Stream</h1>
-            <button>
-                Category
-            </button>
+            <button>Category</button>
         </nav>
     </header>
-    <main id="main-container">
-        
-    </main>
+    <main id="main-container"></main>
 
     <script>
         window.addEventListener('load', async () => {
-            const id = (new URL(document.location)).searchParams.get('ID');
-            const getData = async () => {
-                const response = await fetch('./assets/db.json');
-                const dataJson = await response.json();
-                const data = dataJson.data.filter(item => item.id == id);
-                return data;
+            const id = new URL(document.location).searchParams.get('ID');
+            const response = await fetch('./assets/db.json');
+            const dataJson = await response.json();
+            const data = dataJson.data.find(item => item.id == id);
+            
+            if (data) {
+                document.getElementById('main-container').innerHTML = `
+                    <div class="video-container">
+                        <video poster="${data.thumbnail}" controls>
+                            <source src="${data.video_url}" type="${data.format}">
+                            <track kind="captions" src="${data.sub_url}" srclang="id" label="Indonesia">
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h1>${data.title}</h1>
+                        <p>${data.description}</p>
+                    </div>
+                `;
             }
-            const data = await getData();
-            const mainContainer = document.getElementById('main-container');
-            mainContainer.innerHTML = `
-                <div class="video-container">
-                    <video poster=${data[0].thumbnail} controls>
-                        <source src=${data[0].video_url} type=${data[0].format}>
-                        <track kind="captions" src=${data[0].sub_url} srclang="id" label="Indonesia">
-                    </video>
-                </div>
-                <div class="video-info">
-                    <h1>${data[0].title}</h1>
-                    <p>${data[0].description}</p>
-                </div>
-            `
-        })
+        });
     </script>
 
     <style>
-        .video-container {
+        .video-container, .video-info {
             width: 100%;
             padding: 1rem;
         }
         video {
             width: 100%;
         }
-        .video-info {
-            width: 100%;
-            padding: 0 1rem;
-        }
     </style>
-
 </body>
 </html>
