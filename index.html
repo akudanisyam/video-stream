@@ -8,14 +8,50 @@
 </head>
 <body>
     <header>
-        <h1>Video Player</h1>
+        <nav>
+            <a href="index.html">
+                <h1>Video Stream</h1>
+            </a>
+            <button>
+                Category
+            </button>
+        </nav>
     </header>
-    <div class="video-container">
-        <h1>Final Destination 2</h1>
-        <video poster="https://m.media-amazon.com/images/M/MV5BODQwMTZlNGYtZWIzMi00MWEwLTg5NGItNTQzMjZhOTM2NTE5XkEyXkFqcGdeQXVyNzE4Mzg0NzI@._V1_.jpg" controls>
-            <source src="https://f2o8.uyeshare.cc/uptobox/xo7lkxfizuvdf3sjs31fi7x3zn1rguos8zeb" type="video/mp4">
-            <track src="./assets/vtt/final-destination-2-indonesia.vtt" kind="captions" srclang="id" label="Indonesia">
-        </video>
+    <section class="search-container">
+        <h3>Search Video</h3>
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </section>
+    <div class="divider">
+        <p>Daftar Film</p>
     </div>
+    <main class="main-container"></main>
+
+
+    <script>
+        window.addEventListener('load', async () => {
+            const BASE_URL = 'http://127.0.0.1:5500';
+            const getData = async () => {
+                const response = await fetch('./assets/db.json');
+                const data = await response.json();
+                return data;
+            }
+            const { data } = await getData();
+            
+            const mainContainer = document.querySelector('.main-container');
+
+            data.forEach(item => {
+                mainContainer.innerHTML += `
+                    <form class="card" action="player.html" method="get">
+                        <input type="hidden" name="ID" value="${item.id}">
+                        <button class="card">
+                            <img src="${item.poster}" alt="${item.title}">
+                            <p>${item.title}</p>
+                        </button>
+                    </form>
+                `;
+            })
+        })
+    </script>
 </body>
 </html>

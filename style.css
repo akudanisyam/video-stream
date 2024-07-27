@@ -6,21 +6,88 @@
 
 header {
     width: 100%;
-    padding: 1rem;
     background-color: #000;
     color: #fff;
-    text-align: center;
 }
 
-.video-container {
-    width: 100%;
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+header nav button {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.search-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem 4rem;
 }
 
-.video-container video {
+.search-container h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.search-container input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.search-container button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.card {
+    width: 30%;
+}
+
+.card button {
+    width: 100%;
+}
+
+.card img {
     width: 100%;
 }

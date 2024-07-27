@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Final Destination",
+            "genre": ["Horror", "Supernatural", "Thriller"],
+            "year": "",
+            "description": "",
+            "poster": "",
+            "thumbnail": "",
+            "video_url": "",
+            "sub_url": "",
+            "format": ""
+        },
+        {
+            "id": 2,
+            "title": "Final Destination 2",
+            "genre": ["Horror", "Supernatural", "Thriller"],
+            "year": "2023",
+            "description": "Film ini menceritakan tentang sekelompok orang yang selamat dari kecelakaan maut, namun kemudian mereka dihantui oleh kematian yang tak terhindarkan.",
+            "poster": "https://m.media-amazon.com/images/I/61vcQzVmO3L.jpg",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BODQwMTZlNGYtZWIzMi00MWEwLTg5NGItNTQzMjZhOTM2NTE5XkEyXkFqcGdeQXVyNzE4Mzg0NzI@._V1_.jpg",
+            "video_url": "https://f2o8.uyeshare.cc/uptobox/xo7lkxfizuvdf3sjs31fi7x3zn1rguos8zeb",
+            "sub_url": "./assets/vtt/final-destination-2-indonesia.vtt",
+            "format": "video/mp4"
+        },
+        {
+            "id": 3,
+            "title": "Final Destination 3",
+            "genre": ["Horror", "Supernatural", "Thriller"],
+            "year": "2006",
+            "description": "Penglihatan seorang siswa tentang perjalanan rollercoaster yang mematikan menyelamatkan hidupnya dan beberapa orang yang beruntung, tetapi tidak dari kematian itu sendiri – yang mencari mereka yang lolos dari takdir mereka.",
+            "poster": "https://cdn.drakor.in/gambar/PLCrjmZn.jpg",
+            "thumbnail": "https://belgianfilmfreak.wordpress.com/wp-content/uploads/2015/05/final-destination-3-505da032e885d.jpg",
+            "video_url": "https://f2o8.uyeshare.cc/uptobox/ry865ben3lm1ymwvcdstst72qtzhqa018qmg",
+            "sub_url": "./assets/vtt/final-destination-3-indonesia.vtt",
+            "format": "video/mp4"
+        },
+        {
+            "id": 4,
+            "title": "Final Destination 4",
+            "genre": ["Horror", "Supernatural", "Thriller"],
+            "year": "",
+            "description": "",
+            "poster": "",
+            "thumbnail": "",
+            "video_url": "https://f2o8.uyeshare.cc/uptobox/uaa9a6aukpay2pf1sdq5qzfskptur8wdb44",
+            "sub_url": "",
+            "format": "video/mp4"
+        },
+        {
+            "id": 5,
+            "title": "Final Destination 5",
+            "genre": ["Horror", "Supernatural", "Thriller"],
+            "year": "",
+            "description": "",
+            "poster": "",
+            "thumbnail": "",
+            "video_url": "",
+            "sub_url": "",
+            "format": ""
+        }
+    ]
+}
