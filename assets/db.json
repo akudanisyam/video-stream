@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Final Destination",
             "genre": ["Horror", "Supernatural", "Thriller"],
-            "year": "2000",
+            "year": 2000,
             "description": "Setelah seorang remaja mendapat penglihatan mengerikan tentang dirinya dan teman-temannya yang meninggal dalam kecelakaan pesawat, ia mencegah kecelakaan itu tetapi kemudian Maut memburu mereka satu per satu.",
             "poster": "https://cdn.drakor.in/gambar/t0djga4n.jpg",
             "thumbnail": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/04/2023/10/01/Sinopsis-Film-Final-Destination-Bioskop-Trans-TV-Hari-ini-1-Oktober-2023-Menghindari-dari-Kejaran-Maut-1989833646.jpg",
@@ -17,7 +17,7 @@
             "id": 2,
             "title": "Final Destination 2",
             "genre": ["Horror", "Supernatural", "Thriller"],
-            "year": "2023",
+            "year": 2023,
             "description": "Film ini menceritakan tentang sekelompok orang yang selamat dari kecelakaan maut, namun kemudian mereka dihantui oleh kematian yang tak terhindarkan.",
             "poster": "https://m.media-amazon.com/images/I/61vcQzVmO3L.jpg",
             "thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59593e36-76d7-4441-8894-47a5b7c19152/dhaj3lo-fce38d91-dfb3-4395-9646-52d60477005e.png/v1/fill/w_1192,h_670,q_70,strp/final_destination_2___wallpaper_by_sc2hayasuiarts_dhaj3lo-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzU5NTkzZTM2LTc2ZDctNDQ0MS04ODk0LTQ3YTViN2MxOTE1MlwvZGhhajNsby1mY2UzOGQ5MS1kZmIzLTQzOTUtOTY0Ni01MmQ2MDQ3NzAwNWUucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.pB0mKaACcQLPYPePgNVxL1u4Fz99aG6UX3VMxpaNqdE",
@@ -30,7 +30,7 @@
             "id": 3,
             "title": "Final Destination 3",
             "genre": ["Horror", "Supernatural", "Thriller"],
-            "year": "2006",
+            "year": 2006,
             "description": "Penglihatan seorang siswa tentang perjalanan rollercoaster yang mematikan menyelamatkan hidupnya dan beberapa orang yang beruntung, tetapi tidak dari kematian itu sendiri – yang mencari mereka yang lolos dari takdir mereka.",
             "poster": "https://cdn.drakor.in/gambar/A63WdA8D.jpg",
             "thumbnail": "https://belgianfilmfreak.wordpress.com/wp-content/uploads/2015/05/final-destination-3-505da032e885d.jpg",
@@ -43,7 +43,7 @@
             "id": 4,
             "title": "Final Destination 4",
             "genre": ["Horror", "Supernatural", "Thriller"],
-            "year": "2009",
+            "year": 2009,
             "description": "Setelah firasat seorang pemuda tentang kecelakaan mobil balap yang mematikan membantu menyelamatkan nyawa teman-temannya, Kematian berangkat untuk mengumpulkan mereka yang lolos dari akhir mereka.",
             "poster": "https://cdn.drakor.in/gambar/PLCrjmZn.jpg",
             "thumbnail": "https://picfiles.alphacoders.com/919/91971.jpg",
@@ -56,14 +56,18 @@
             "id": 5,
             "title": "Final Destination 5",
             "genre": ["Horror", "Supernatural", "Thriller"],
-            "year": "2011",
+            "year": 2011,
             "description": "Dalam seri kelima ini, Kematian hadir di mana-mana seperti sebelumnya, dan dilepaskan setelah firasat seorang pria menyelamatkan sekelompok rekan kerja dari keruntuhan jembatan gantung yang mengerikan. Namun, sekelompok jiwa yang tidak menaruh curiga ini tidak pernah diharapkan untuk bertahan hidup, dan, dalam perlombaan melawan waktu yang mengerikan, kelompok yang bernasib malang itu dengan panik mencoba menemukan cara untuk melarikan diri dari agenda jahat Kematian.",
             "poster": "https://cdn.drakor.in/gambar/M7WrgDWW.jpg",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw_RShfSvhmdEBeEpkDm60ZHeVEszUQCH3gQ&s",
             "video_url": "https://f2o8.uyeshare.cc/uptobox/kc4wobukhbwowmrhiqj11afdngxi5v9s0dqgzm",
             "sub_url": "./assets/vtt/final-destination-5-indonesia.vtt",
+<<<<<<< HEAD
             "format": "video/mp4",
             "isSeries": false
+=======
+            "format": "video/mp4"
+>>>>>>> 5f8599281c60c2c6f7b7edba01c303165e36a2d3
         },
         {
             "id": 6,
@@ -75,6 +79,7 @@
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSicF5iLwleFXEjQFwDMUXW6bmr6Rzw5hetjQ&s",
             "video_url": "https://f2o8.uyeshare.cc/uptobox/y7iml05tsl96ggpz1mptkbbmoyb1frs1fp3t7",
             "sub_url": "./assets/vtt/furiosa-a-mad-max-saga-indonesia.vtt",
+<<<<<<< HEAD
             "format": "video/mp4",
             "isSeries": false
         },
@@ -129,6 +134,9 @@
             "sub_url": "./assets/vtt/the-strangers-chapter-1-indonesia.vtt",
             "format": "video/mp4",
             "isSeries": false
+=======
+            "format": "video/mp4"
+>>>>>>> 5f8599281c60c2c6f7b7edba01c303165e36a2d3
         }
     ]
 }
